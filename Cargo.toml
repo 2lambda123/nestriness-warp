@@ -14,7 +14,7 @@ gst-sys = { package = "gstreamer-sys", git = "https://gitlab.freedesktop.org/gst
 toml_datetime = "0.6.5"
 url = "2.5.0"
 
-quinn = "0.10"
+quinn = "0.11"
 webtransport-quinn = "0.6.1"
 rustls = { version = "0.21", features = ["dangerous_configuration"] }
 rustls-native-certs = "0.6"
