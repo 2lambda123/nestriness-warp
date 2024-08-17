@@ -12,7 +12,7 @@ gst-video = { package = "gstreamer-video", git = "https://gitlab.freedesktop.org
 gst-pbutils = { package = "gstreamer-pbutils", git = "https://gitlab.freedesktop.org/gstreamer/gstreamer-rs", features = ["v1_20"] }
 gst-sys = { package = "gstreamer-sys", git = "https://gitlab.freedesktop.org/gstreamer/gstreamer-rs" }
 toml_datetime = "0.6.5"
-url = "2.5.0"
+url = "2.5.2"
 
 quinn = "0.11"
 webtransport-quinn = "0.6.1"
