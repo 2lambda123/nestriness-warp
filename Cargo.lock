@@ -2438,7 +2438,7 @@ dependencies = [
  "rfc6381-codec",
  "rustls 0.21.11",
  "rustls-native-certs 0.6.3",
- "rustls-pemfile 1.0.4",
+ "rustls-pemfile 2.1.3",
  "serde_json",
  "tokio",
  "toml_datetime",
