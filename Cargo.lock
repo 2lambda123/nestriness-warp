@@ -429,9 +429,9 @@ checksum = "702fc72eb24e5a1e48ce58027a675bc24edd52096d5397d4aea7c6dd9eca0bd1"
 
 [[package]]
 name = "clap_mangen"
-version = "0.2.16"
+version = "0.2.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "10b5db60b3310cdb376fbeb8826e875a38080d0c61bdec0a91a3da8338948736"
+checksum = "f17415fd4dfbea46e3274fcd8d368284519b358654772afb700dc2e8d2b24eeb"
 dependencies = [
  "clap",
  "roff",
@@ -1521,7 +1521,7 @@ dependencies = [
  "quinn-proto 0.10.6",
  "quinn-udp 0.4.1",
  "rustc-hash 1.1.0",
- "rustls 0.21.10",
+ "rustls 0.21.11",
  "thiserror",
  "tokio",
  "tracing",
@@ -1555,7 +1555,7 @@ dependencies = [
  "rand",
  "ring 0.16.20",
  "rustc-hash 1.1.0",
- "rustls 0.21.10",
+ "rustls 0.21.11",
  "rustls-native-certs 0.6.3",
  "slab",
  "thiserror",
@@ -2423,7 +2423,7 @@ dependencies = [
  "mp4",
  "quinn 0.11.3",
  "rfc6381-codec",
- "rustls 0.21.10",
+ "rustls 0.21.11",
  "rustls-native-certs 0.6.3",
  "rustls-pemfile 1.0.4",
  "serde_json",
