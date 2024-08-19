@@ -1264,7 +1264,7 @@ dependencies = [
  "quinn 0.10.2",
  "thiserror",
  "tokio",
- "webtransport-quinn",
+ "webtransport-quinn 0.6.1",
 ]
 
 [[package]]
@@ -2446,7 +2446,7 @@ dependencies = [
  "tracing-subscriber",
  "url",
  "uuid",
- "webtransport-quinn",
+ "webtransport-quinn 0.8.0",
 ]
 
 [[package]]
@@ -2551,6 +2551,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "webtransport-generic"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bc1fd0d5c7e24e485aa58040fba18d6a4204d4354eca19d34b14540ecd9147b8"
+dependencies = [
+ "bytes",
+ "tokio",
+]
+
+[[package]]
 name = "webtransport-proto"
 version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2578,7 +2588,26 @@ dependencies = [
  "thiserror",
  "tokio",
  "url",
- "webtransport-generic",
+ "webtransport-generic 0.5.0",
+ "webtransport-proto",
+]
+
+[[package]]
+name = "webtransport-quinn"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "27b0ad39e557756d066277901c3024e586aa3e026e4ee9b377f2d45d782e39ff"
+dependencies = [
+ "bytes",
+ "futures",
+ "http",
+ "log",
+ "quinn 0.10.2",
+ "quinn-proto 0.10.6",
+ "thiserror",
+ "tokio",
+ "url",
+ "webtransport-generic 0.8.0",
  "webtransport-proto",
 ]
 
